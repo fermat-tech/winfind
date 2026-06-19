@@ -6,13 +6,21 @@ Rename the binary to anything you like — all usage and error messages derive f
 
 ## Installation
 
+### go install (recommended)
+
+Requires [Go](https://golang.org) 1.21+.
+
+```powershell
+go install github.com/fermat-tech/winfind@latest
+```
+
+The binary is placed in your `$GOPATH/bin` (usually `%USERPROFILE%\go\bin`), which should already be on your `PATH`.
+
 ### Download
 
 Grab the latest binary from [Releases](https://github.com/fermat-tech/winfind/releases) and put it somewhere on your `PATH`.
 
 ### Build from source
-
-Requires [Go](https://golang.org) 1.21+.
 
 ```powershell
 git clone https://github.com/fermat-tech/winfind.git
